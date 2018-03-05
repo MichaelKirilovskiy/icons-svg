@@ -1,0 +1,51 @@
+.svg-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+svg {
+    flex-basis: calc(100%/6 - 20px);
+    width: 50px !important;
+    height: 80px !important;
+    color: green;
+    fill: orange;
+    stroke-width: 2px;
+    stroke: #faf;
+    padding-bottom: 20px;
+}
+
+
+
+svg > path  {
+    fill: #85133e !important;
+    stroke-width: 0.1em;
+    stroke: #6dffa9;
+}
+svg > g > path  {
+    fill: #85133e !important;
+    stroke-width: 0.1em;
+    stroke: #6dffa9;
+}
+
+svg > g > path:hover {
+    cursor: pointer;
+    fill: #f60522;
+    stroke-width: 0.4em;
+    stroke: #6dffa9;
+}
+
+path:hover {
+    cursor: pointer;
+    fill: #f60522 !important;
+    stroke-width: 0.4em;
+    stroke: #6dffa9;
+}
+
+/*
+svg:hover ~ path{
+    cursor: pointer;
+    fill: #f60522 !important;
+    stroke-width: 0.4em;
+    stroke: #6dffa9;
+}*/
